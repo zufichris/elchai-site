@@ -77,9 +77,10 @@ const Header = () => {
 						})}
 					</div>
 
-					<Link href={"#"} className="btn-secondary lg:hidden">
+					{/* <Link href={"#"} className="btn-secondary lg:hidden">
 						White Paper
-					</Link>
+					</Link> */}
+					<div className="max-w-[100px] w-full" />
 
 					<Image
 						src={Menu}
@@ -134,9 +135,9 @@ const Header = () => {
 								);
 							})}
 						</div>
-						<Link href={"#"} className="btn-secondary">
+						{/* <Link href={"#"} className="btn-secondary">
 							White Paper
-						</Link>
+						</Link> */}
 					</div>
 				</div>
 			</div>

@@ -16,7 +16,7 @@ const infoList = [
 	},
 	{
 		title: "Partnership",
-		link: "maria@elchaigroup.com",
+		link: "flavio@elchaigroup.com",
 		img: Users,
 	},
 ];
