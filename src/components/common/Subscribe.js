@@ -2,36 +2,36 @@ import Image from "next/image";
 import Envelope from "@assets/icons/envelope.svg";
 import BannerPattern from "@assets/images/banner-design.svg";
 import Twitter from "@assets/icons/twitter.svg";
+import LinkedIn from "@assets/icons/linkedin.svg";
+import Instagram from "@assets/icons/instagram.svg";
 import Tiktok from "@assets/icons/tiktok.svg";
-import Medium from "@assets/icons/medium.svg";
-import Discord from "@assets/icons/discord.svg";
 import Telegram from "@assets/icons/telegram.svg";
 import Link from "next/link";
 
 const socials = [
 	{
 		icon: Twitter,
-		link: "#",
+		link: "https://twitter.com/elchaigroup?s=21&t=z4wxoVnbaES9Yu0_wOQksw",
 		alt: "Twitter",
 	},
 	{
+		icon: LinkedIn,
+		link: "https://www.linkedin.com/company/elchai-group/",
+		alt: "LinkedIn",
+	},
+	{
+		icon: Instagram,
+		link: "https://www.instagram.com/elchaigroup/?igshid=MzRlODBiNWFlZA%3D%3D",
+		alt: "Instagram",
+	},
+	{
 		icon: Tiktok,
-		link: "#",
+		link: "https://www.tiktok.com/@elchaigroup",
 		alt: "Tiktok",
 	},
 	{
-		icon: Medium,
-		link: "#",
-		alt: "Medium",
-	},
-	{
-		icon: Discord,
-		link: "#",
-		alt: "Discord",
-	},
-	{
 		icon: Telegram,
-		link: "#",
+		link: "https://t.me/elchaigroup",
 		alt: "Telegram",
 	},
 ];
@@ -82,6 +82,7 @@ const Subscribe = () => (
 										<Image
 											src={social.icon}
 											alt={social.alt}
+											height={40}
 										/>
 									</Link>
 								</li>
