@@ -6,10 +6,10 @@ const MyApp = ({ Component, pageProps }) => {
 		<>
 			<Head>
 				<link rel="icon" href="/favicon.ico" sizes="52x46" />
-				<title>The Universe Eye</title>
+				<title>The Elchai group</title>
 
 				<meta prefix="og: http://ogp.me/ns#" />
-				<meta property="og:title" content="The Universe Eye" />
+				<meta property="og:title" content="The Elchai group" />
 				<meta property="og:type" content="website" />
 				<meta property="og:description" content="Elchai Group" />
 				{/* <meta property="og:image" content="https://elchaigroup.com/cover.png" /> */}
