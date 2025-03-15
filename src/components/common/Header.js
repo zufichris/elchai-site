@@ -46,9 +46,9 @@ const Header = () => {
 				<div className="flex items-center justify-between">
 					<Link
 						href={"/"}
-						className="max-w-[164px] lg:max-w-[143px] w-full"
+						className="max-w-[150px] lg:max-w-[120px] w-full"
 					>
-						<Image src={Logo} alt="logo" />
+						<Image src={Logo} alt="logo" width={100} height={100} />
 					</Link>
 					<div className="flex items-center gap-8 lg:hidden">
 						{navMenu.map((item, index) => {

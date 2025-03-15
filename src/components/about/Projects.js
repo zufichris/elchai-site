@@ -142,7 +142,7 @@ const Projects = () => (
 				</div>
 			</div>
 
-			<div className="flex items-center gap-[120px] md:flex-col md:gap-6 lg:gap-4 mb-[120px] md:mb-16">
+			{/* <div className="flex items-center gap-[120px] md:flex-col md:gap-6 lg:gap-4 mb-[120px] md:mb-16">
 				<div className="lg:max-w-[300px] md:max-w-full max-w-[350px] w-full flex items-center justify-center">
 					<Image src={AddToCart} width={350} alt="Add to cart" />
 				</div>
@@ -166,7 +166,7 @@ const Projects = () => (
 						maximum supply of 1 BILLION tokens (1,000,000,000).
 					</p>
 				</div>
-			</div>
+			</div> */}
 		</div>
 	</div>
 );

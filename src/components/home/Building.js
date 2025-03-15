@@ -18,13 +18,13 @@ const buildList = [
 		img: BecNft,
 		alt: "BEC Nft",
 	},
-	{
-		title: "BEC Token",
-		description:
-			"BEC token will be the main token used within The Universe Eye Ecosystem. BEC will have other utilities as the project evolves.",
-		img: BecToken,
-		alt: "BEC Token",
-	},
+	// {
+	// 	title: "BEC Token",
+	// 	description:
+	// 		"BEC token will be the main token used within The Universe Eye Ecosystem. BEC will have other utilities as the project evolves.",
+	// 	img: BecToken,
+	// 	alt: "BEC Token",
+	// },
 ];
 
 const Building = () => (

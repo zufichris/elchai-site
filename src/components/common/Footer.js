@@ -63,11 +63,11 @@ const Footer = () => (
 		<div className="lg-container">
 			<div className="mb-6">
 				<Link
-					href={"/"}
-					className="max-w-[164px] w-full mb-6 inline-block"
-				>
-					<Image src={Logo} alt="logo" />
-				</Link>
+						href={"/"}
+						className="max-w-[150px] w-full mb-6 inline-block"
+					>
+						<Image src={Logo} alt="logo" width={100} height={100} />
+					</Link>
 				<div className="grid grid-cols-4 md:grid-cols-2 gap-y-4 gap-x-8 max-w-[580px] mb-6">
 					{navMenu.map((nav, index) => {
 						return (
