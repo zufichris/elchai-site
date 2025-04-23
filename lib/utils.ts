@@ -6,7 +6,7 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 export function getSiteData() {
-  const siteUrl = "https://elchai.vercel.app";
+  const siteUrl = "www.elchaigroup.com";
   return {
     siteName: "Elchai",
     siteUrl,
@@ -24,10 +24,10 @@ export function getSiteData() {
     contact: {
       email: "info@elchaigroup.com",
       supportEmail: "support@elchaigroup.com",
-      phone: "+971 50 108 0066",
+      phone: "+971501080066",
     },
     address: {
-      street: "123 Innovation Drive",
+      street: "34CV+JCM-Cluster G -Jumeirah Lake Towers-Dubai-Emirati Arabi Uniti",
       city: "Dubai",
       country: "United Arab Emirates",
       postalCode: "12345",
