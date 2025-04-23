@@ -149,7 +149,7 @@ const ContactMenuData: MenusI[] = [
         url: `tel:${getSiteData().contact.phone}`
     },
     {
-        name: `${getSiteData().address.street}-${getSiteData().address.city}-${getSiteData().address.country}`,
+        name: getSiteData().address.fullAddress,
         prefix: 'Address:',
         url: getSiteData().address.url
     }

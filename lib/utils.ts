@@ -31,7 +31,9 @@ export function getSiteData() {
       city: "Dubai",
       country: "United Arab Emirates",
       postalCode: "12345",
-      url: "https://maps.app.goo.gl/nR8JcLFoMSD2EXVB6"
+      url: "https://maps.app.goo.gl/nR8JcLFoMSD2EXVB6",
+      fullAddress:
+        "34CV+JCM-Cluster G -Jumeirah Lake Towers-Dubai-Emirati Arabi Uniti, Dubai, United Arab Emirates",
     },
   };
 }
