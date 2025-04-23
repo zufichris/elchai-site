@@ -95,7 +95,7 @@ export default function AnimatedHeroText() {
         <>
             {renderText()}
             <div className={`mt-4 transition-opacity duration-500 $<>{showButton ? "opacity-100" : "opacity-0"}`}>
-                <p className={"sm:text-base text-[#d0baca] font-medium mb-3 capitalize"}>Elchai is a team of dedicated developers specializing in AI, metaverse, blockchain, and Web3 technologies—passionate about crafting extraordinary, intelligent digital solutions that redefine what’s possible.</p>
+                <p className={"text-base text-[#d0baca] font-medium mb-3 capitalize"}>Elchai is a team of dedicated developers specializing in AI, metaverse, blockchain, and Web3 technologies—passionate about crafting extraordinary, intelligent digital solutions that redefine what’s possible.</p>
                 <Link href={"/contact-us"} className="btn btn-main !text-base">
                     Contact Us <FaChevronCircleRight />
                 </Link>
