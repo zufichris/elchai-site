@@ -70,7 +70,7 @@ const LeaderShip = () => {
     );
 }
 
-const SkillsDistribution = () => {  
+const SkillsDistribution = () => {
     return (
         <>
             <div className="grid grid-cols-2 lg:grid-cols-8 gap-8 lg:gap-4 expertise-list">
@@ -117,7 +117,7 @@ const Team = () => {
             <Tabs defaultValue="skills" className="w-full teams-tabs">
                 <TabsList className="grid grid-cols-2 gap-3 h-auto bg-transparent mx-auto mb-8">
                     <TabsTrigger value="skills" className="btn">Skills Distribution</TabsTrigger>
-                    <TabsTrigger value="leadership" className="btn">Leadership</TabsTrigger>
+                    {/* <TabsTrigger value="leadership" className="btn">Leadership</TabsTrigger> */}
                 </TabsList>
                 <TabsContent value="skills">
                     <SkillsDistribution />
