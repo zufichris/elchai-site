@@ -1,13 +1,13 @@
-import { CardStyleOne, CardStyleTwo } from "@/inc/Containers";
+import { CardStyleOne, } from "@/inc/Containers";
 import Image from "next/image";
 import Link from "next/link";
 import { FaChevronCircleRight } from "react-icons/fa";
-import CuttingEdgeStack from "./_components/CuttingEdgeStack";
 import SignatureProjects from "./_components/SignatureProjects";
 import LibraryStack from "./_components/LibraryStack";
 import HeroHeader from "../inc/HeroHeader";
 import AnimatedHeroText from "./_components/AnimatedHeroText";
 import Solutions from "./_components/Solutions";
+import { SubsidiariesSection } from "./_components/Subsidiaries";
 
 export default function Home() {
 
@@ -15,7 +15,7 @@ export default function Home() {
 
 	return (
 		<>
-			<HeroHeader video="/videos/main-hero-video.mp4" mheight="min-h-[90vh]" className="max-w-[666px]" title={<AnimatedHeroText/>} />
+			<HeroHeader video="/videos/main-hero-video.mp4" mheight="min-h-[90vh]" className="max-w-[666px]" title={<AnimatedHeroText />} />
 
 			<div className="border-b border-foreground/50 max-w-screen-lg mx-auto"></div>
 
@@ -57,40 +57,7 @@ export default function Home() {
 					</div>
 				</div>
 			</div>
-
-			<div className="py-8 lg:py-16">
-				<div className="main-container">
-					<p className="text-center max-w-[782px] font-bold uppercase mx-auto mb-8">Elchai is a team of dedicated developers specializing in al, metaverse, blockchain, and web3 technologies-passionate about crafting extraordinary, intelligent digital solutions that redefine what's possible</p>
-
-					<h2 className="main-title mb-12 text-center lg:text-left">Explore Our <span>Innovative Subsidiaries</span></h2>
-					<CardStyleOne className="max-w-[1024px]">
-						<div className="grid grid-cols-1 lg:grid-cols-5 gap-6">
-								<div className="flex flex-col lg:flex-row lg:justify-end lg:items-center lg:col-span-2 relative lg:py-12">
-									<div className="lg:absolute top-0 left-0 mb-4 lg:mb-0"><Image src={'/images/nfc-rent.svg'} alt="" width={70} height={70} /></div>
-									<div className="lg:text-right max-w-[296px] space-y-3 lg:space-y-6">
-										<h3 className="font-bold uppercase">NFC</h3>
-										<p className="text-sm">Revolutionizing digital asset management with NFT & blockchain technology</p>
-										<Link href={'https://nfcrent.com/'} target="_blank" className="text-eblue uppercase text-sm font-bold">Learn More</Link>
-									</div>
-								</div>
-								<div className="flex justify-center items-center relative after:absolute lg:after:top-0 lg:after:bottom-0 lg:after:left-1/2 lg:after:-translate-x-1/2 lg:after:w-[1px] after:bg-white after:z-10 after:left-0 after:right-0 after:w-full after:h-[1px] lg:after:h-auto">
-									<div className="w-16 h-16 bg-gradient-to-r from-eblue to-epurple rounded-full lg:flex items-center justify-center relative z-20 p-2">
-										<Image src={'images/decoration-white.svg'} width={60} height={60} alt="elchai decoration" />
-									</div>
-								</div>
-								<div className="flex flex-col lg:flex-row lg:justify-start lg:items-center lg:col-span-2 relative lg:py-12">
-									<div className="lg:absolute top-0 right-0 mb-4 lg:mb-0"><Image src={'/images/the-universe-eye.svg'} alt="" width={170} height={170} /></div>
-									<div className="max-w-[296px] space-y-3 lg:space-y-6">
-										<h3 className="font-bold uppercase">The Universe Eye</h3>
-										<p className="text-sm">Crafting immersive worlds through advanced AR, VR, MR and AI-driven environments</p>
-										<Link href={'https://theuniverseye.com/'} target="_blank" className="text-eblue uppercase text-sm font-bold">Learn More</Link>
-									</div>
-								</div>
-							</div>	
-					</CardStyleOne>
-				</div>
-			</div>
-
+			<SubsidiariesSection/>
 			<div className="py-8 lg:py-16">
 				<div className="main-container">
 					<div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
@@ -109,7 +76,7 @@ export default function Home() {
 					</div>
 				</div>
 			</div>
-			
+
 			<div className="py-8 lg:py-16">
 				<div className="main-container">
 					<h2 className="main-title mb-4 lg:mb-12 text-center max-w-[792px]">Comprehensive Solutions Tailored <span>For The Digital Future</span></h2>
@@ -133,7 +100,7 @@ export default function Home() {
 								<li>Smart Chatbots & Virtual Assistants</li>
 								<li>Al-driven Cybersecurity Solutions</li>
 								<li>Al for Blockchain & Web3 Applications</li>
-							</ul>	
+							</ul>
 						</div>
 					</div>
 
@@ -197,7 +164,7 @@ export default function Home() {
 								<li>Blockchain Based Carbon Credit Systems</li>
 								<li>Cyber Security & Advanced Tech Research</li>
 								<li>Metaverse Development & Digital transformation</li>
-							</ul>	
+							</ul>
 						</div>
 					</div>
 
@@ -230,7 +197,7 @@ export default function Home() {
 							<div className="flex flex-col lg:flex-row items-center justify-center gap-4">
 								<Link href={'/services'} className="btn btn-main">Explore Our Services <FaChevronCircleRight /></Link>
 								<Link href={'/contact-us'} className="btn btn-main">Contact Us <FaChevronCircleRight /></Link>
-							</div>	
+							</div>
 						</div>
 					</CardStyleOne>
 				</div>
