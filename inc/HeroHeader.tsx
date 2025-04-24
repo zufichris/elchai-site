@@ -1,12 +1,12 @@
 import Image from "next/image"
 
 
-const HeroHeader = ({image, video, title, className, mheight='min-h-[60vh]'}: {image?: string, video?:string, title: React.ReactNode, className: string, mheight?: string}) => {
+const HeroHeader = ({image, video,overlay="none", title, className, mheight='min-h-[60vh]'}: {image?: string, video?:string, title: React.ReactNode, className?: string, mheight?: string,overlay?:"lg"|"md"|"sm"|"none"}) => {
     return (
         <>
-            <div className={`relative pt-28 ${mheight} lg:min-h-[100vh]`}>
+            <div className={`relative pt-28 backdrop-blur-${overlay} ${mheight} lg:min-h-[100vh]`}>
 
-                <div className="absolute top-0 left-0 right-0 bottom-0 z-20 bg-black/50"></div>
+                <div className={`absolute top-0 left-0 right-0 bottom-0 z-20 bg-black/50 backdrop-blur-${overlay}`}></div>
 
                 {image ? (
                     <Image src={image || ''} width={1920} height={1920} alt="Elchai" className="absolute top-0 right-0 bottom-0 left-0 object-center object-cover w-full h-full z-10" />

@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 	openGraph: {
 		title: "Elchai | Pioneering AI, Metaverse, Blockchain & Web3 Solutions",
 		description: "Elchai specializes in AI-driven Metaverse, Blockchain, and Web3 solutions—empowering global businesses through innovation and advanced digital experiences.",
-		url:`${getSiteData().siteUrl}/about-us`,
+		url: `${getSiteData().siteUrl}/about-us`,
 		type: "website",
 		images: [
 			{
@@ -55,31 +55,31 @@ const AboutUsPage = () => {
 				<div className="main-container">
 					<div className="grid lg:grid-cols-2 gap-12">
 						<div>
-							<Image src={'/images/flavio-elia.webp'} alt="" width={768} height={768} className="rounded-2xl" />
+							<Image src={'/images/flavio-elia.png'} alt="" width={768} height={768} className="rounded-2xl" />
 						</div>
 						<div className="flex flex-col justify-center">
 							<h2 className="main-title mb-4 max-w-[855px]">Message from our <span>Chairman & Founder</span></h2>
 							<p className="mb-6">"At Elchai, innovation drives us. Our vision is not just to build digital worlds, but to reshape how businesses engage and thrive in the age of decentralization. Our dedicated team works tirelessly to pioneer solutions that inspire, empower, and set new standards across industries. Join us as we continue to turn visionary ideas into groundbreaking realities"</p>
 
 							<ul className="space-y-2">
-								<li><span className="text-epurple text-lg">Name:</span> (Founder/Chairman Name)</li>
-								<li><span className="text-epurple text-lg">Designation:</span> Chairman & Founder, Elchai Group</li>
+								<li className={"capitalize"}>Flavio Elia</li>
+								<li>Chairman & Founder, Elchai Group</li>
 							</ul>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div className="py-8 lg:py-16">
-				<div className="main-container">
-					<h2 className="main-title mb-4 text-center">Charting New <span>Digital Territories</span></h2>
-					<p className="text-center">At Elchai, we are committed to exploring uncharted territories by crafting Web3-based ecosystems powered by decentralization and advanced technologies such as Al, NLP, ML, and loT. Our vision particularly aims to revolutionize the global real estate sector, paving paths for businesses to adopt decentralized models, drive innovation, and achieve extraordinary growth within the Webs domain.</p>
+			<HeroHeader
+				video="/videos/about-us-vid.mp4"
+				title={
+					<div className="h-full w-full">
+						<h2 className="main-title mb-4 text-center">Charting New <span>Digital Territories</span></h2>
+						<p className="text-center text-xl font-semibold">At Elchai, we are committed to exploring uncharted territories by crafting Web3-based ecosystems powered by decentralization and advanced technologies such as Al, NLP, ML, and loT. Our vision particularly aims to revolutionize the global real estate sector, paving paths for businesses to adopt decentralized models, drive innovation, and achieve extraordinary growth within the Webs domain.</p>
 
-				</div>
-				<div className="relative">
-					<div className="bg-linear-to-b from-black to-transparent absolute top-0 bottom-1/2 left-0 right-0"></div>
-					<Image src={'/images/charting-new-digital-territories.webp'} alt="" width={1920} height={1920} className="aspect-video object-cover object-top w-full h-full" />
-				</div>
-			</div>
+					</div>
+				}
+				overlay="sm"
+			/>
 			<div className="py-8 lg:py-16">
 				<div className="main-container">
 					<h2 className="main-title mb-4 text-center">Why Global Leaders <span>Choose Elchai</span></h2>

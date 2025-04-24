@@ -115,7 +115,7 @@ const Team = () => {
     return (
         <div className="w-full flex flex-col gap-10">
             <Tabs defaultValue="skills" className="w-full teams-tabs">
-                <TabsList className="grid grid-cols-2 gap-3 h-auto bg-transparent mx-auto mb-8">
+                <TabsList className="h-auto bg-transparent mx-auto mb-8">
                     <TabsTrigger value="skills" className="btn">Skills Distribution</TabsTrigger>
                     {/* <TabsTrigger value="leadership" className="btn">Leadership</TabsTrigger> */}
                 </TabsList>
