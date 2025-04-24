@@ -6,6 +6,7 @@ import { FaChevronCircleRight } from "react-icons/fa";
 import { Metadata } from "next";
 import { getSiteData } from "@/lib/utils";
 import Team from "./_components/Team";
+import VideoBackgroundSection from "./_components/video-background";
 
 export const metadata: Metadata = {
 	title: "Elchai | Pioneering AI, Metaverse, Blockchain & Web3 Solutions",
@@ -69,17 +70,9 @@ const AboutUsPage = () => {
 					</div>
 				</div>
 			</div>
-			<HeroHeader
-				video="/videos/about-us-vid.mp4"
-				title={
-					<div className="h-full w-full">
-						<h2 className="main-title mb-4 text-center">Charting New <span>Digital Territories</span></h2>
-						<p className="text-center text-xl font-semibold">At Elchai, we are committed to exploring uncharted territories by crafting Web3-based ecosystems powered by decentralization and advanced technologies such as Al, NLP, ML, and loT. Our vision particularly aims to revolutionize the global real estate sector, paving paths for businesses to adopt decentralized models, drive innovation, and achieve extraordinary growth within the Webs domain.</p>
 
-					</div>
-				}
-				overlay="sm"
-			/>
+			<VideoBackgroundSection/>
+
 			<div className="py-8 lg:py-16">
 				<div className="main-container">
 					<h2 className="main-title mb-4 text-center">Why Global Leaders <span>Choose Elchai</span></h2>
