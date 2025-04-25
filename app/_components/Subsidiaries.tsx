@@ -32,9 +32,8 @@ export function SubsidiaryCard({ subsidiary }: { subsidiary: Subsidiary }) {
                     <Image
                         src={subsidiary.logoUrl || "/placeholder.svg"}
                         alt={`${subsidiary.title} Logo`}
-                        width={170}
-                        height={200}
-                        className="object-contain h-[70px] w-[70px] sm:h-[80px] sm:w-[80px] md:h-[100px] md:w-[100px]"
+                        width={subsidiary.id === "nfc-rent" ? 80 : 170}
+                        height={subsidiary.id === "nfc-rent" ? 60 : 100}
                     />
                 </div>
             </div>

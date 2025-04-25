@@ -153,9 +153,9 @@ export default function Home() {
 				<div className="main-container">
 					<h2 className="main-title mb-4 text-center max-w-[770px]">Partnering with Rob Rockefeller <span>SC to Build the Digital Future</span></h2>
 					<p className="text-center max-w-[818px] mx-auto">Elchai has joined forces with global sionary Rab Rockefeller SC to co develop world-shaping digital ecosystems powered by Al, blockchain, and sustainability tech.</p>
-					<div className="grid lg:grid-cols-2 gap-6 mt-12">
+					<div className="grid lg:grid-cols-2 gap-4 mt-12">
 						<div className="flex justify-center items-center">
-							<Image src={'/images/rob-rockeffeller.svg'} alt="" width={320} height={320} />
+							<Image src={'/images/rob-rockeffeller.png'} alt="" width={520} height={520} />
 						</div>
 						<div className="flex flex-col justify-center">
 							<h3 className="text-center font-bold text-eblue text-xl mb-6">AI-Powered Solutions We Offer</h3>
