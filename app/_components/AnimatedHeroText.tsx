@@ -25,7 +25,7 @@ export default function SimplifiedHeroText() {
             </div>
 
             <div className="mt-4">
-                <p className="text-base text-[#d0baca] font-medium mb-3 capitalize">
+                <p className="text-base hidden sm:block text-[#d0baca] font-medium mb-3 capitalize">
                     {description}
                 </p>
                 <Link href="/contact-us" className="btn btn-main !text-base">
