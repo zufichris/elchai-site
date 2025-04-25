@@ -1,10 +1,9 @@
 import Link from "next/link"
 import HeroHeader from "@/inc/HeroHeader";
 import { CardStyleOne } from "@/inc/Containers"
-import { FaChevronCircleRight, FaPhoneAlt } from "react-icons/fa";
+import { FaChevronCircleRight} from "react-icons/fa";
 import { IconStyleOne, IconTextStyleOne } from "@/inc/IconTexts";
 import { MdAttachEmail, MdSupportAgent } from "react-icons/md";
-import { FaMapMarkerAlt } from "react-icons/fa";
 import { IoCallSharp } from "react-icons/io5";
 import { FaEarthAsia, FaFacebookF } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";

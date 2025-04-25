@@ -88,7 +88,6 @@ const LibraryStack = () => {
                                 <Image src={icon.logo} alt="" width={120} height={120} className="aspect-[200/80]" />
                             </div>
                         </SwiperSlide>
-                        
                     )}
                 </Swiper>
             </div>
