@@ -37,7 +37,8 @@ interface LightingProps {
 export function LightingOverLay({ overlay = "none", className1, className2 }: LightingProps) {
     return (
         <div className={`absolute top-0 left-0 right-0 bottom-0 z-20 bg-black/50 backdrop-blur-${overlay}`}>
-            <div className={cn("absolute -left-[780px] -top-[450px] w-[300px] h-[300px] sm:w-[1000px] sm:h-[1000px] opacity-70", className1)}>
+
+            {/* <div className={cn("absolute -left-[780px] -top-[450px] w-[300px] h-[300px] sm:w-[1000px] sm:h-[1000px] opacity-70", className1)}>
                 <Image
                     src="/images/gradient.png"
                     alt=""
@@ -56,7 +57,7 @@ export function LightingOverLay({ overlay = "none", className1, className2 }: Li
                     className="object-cover"
                     priority
                 />
-            </div>
+            </div> */}
         </div>
     )
 }
