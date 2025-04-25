@@ -65,7 +65,7 @@ const ContactUsPage = () => {
 
 								<IconTextStyleOne icon={<MdAttachEmail />} title="Email Us" url={`mailto:${getSiteData().contact.email}`} contact={getSiteData().contact.email} />
 
-								<IconTextStyleOne icon={<FaEarthAsia />} title="Website" url={getSiteData().siteUrl} contact={getSiteData().siteUrl} openinnewtab={true} highlight={true} />
+								<IconTextStyleOne icon={<FaEarthAsia />} title="Website" url={getSiteData().siteUrl} contact={getSiteData().siteUrl.replace("https://","www.")} openinnewtab={true} highlight={true} />
 							</div>
 
 							<p className="mb-6">Stay connected with us for the latest news, updates, and insights</p>

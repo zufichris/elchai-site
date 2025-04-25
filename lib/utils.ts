@@ -6,7 +6,7 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 export function getSiteData() {
-  const siteUrl = "www.elchaigroup.com";
+  const siteUrl = "https://elchaigroup.com";
   return {
     siteName: "Elchai",
     siteUrl,
