@@ -77,8 +77,6 @@ const ContactUsPage = () => {
 								<li><IconStyleOne icon={<FaYoutube />} url={getSiteData().socialMedia.youtube} /></li>
 								<li><IconStyleOne icon={<FaXTwitter />} url={getSiteData().socialMedia.twitter} /></li>
 							</ul>
-
-							<IconTextStyleOne icon={<FaEarthAsia />} title="Website" url={getSiteData().siteUrl} contact={getSiteData().siteUrl} openinnewtab={true} highlight={true} />
 						</div>
 						<div>
 							<div className="border border-white px-6 lg:px-12 py-10 lg:py-20 rounded-4xl bg-linear-to-r from-[#22363F] to-[#332E44]">
