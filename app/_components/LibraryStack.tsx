@@ -85,7 +85,7 @@ const LibraryStack = () => {
                     {iconsTop && iconsTop.length > 0 && iconsTop.map((icon, index) =>
                         <SwiperSlide>
                             <div key={index} className="aspect-[4/1.5] p-2 flex items-center justify-center bg-white/5 rounded-2xl">
-                                <Image src={icon.logo} alt="" width={200} height={200} className="aspect-[200/80]" />
+                                <Image src={icon.logo} alt="" width={120} height={120} className="aspect-[200/80]" />
                             </div>
                         </SwiperSlide>
                         
@@ -123,7 +123,7 @@ const LibraryStack = () => {
                     {iconsBottom && iconsBottom.length > 0 && iconsBottom.map((icon, index) =>
                         <SwiperSlide>
                             <div key={index} className="aspect-[4/1.5] p-2 flex items-center justify-center bg-white/5 rounded-2xl">
-                                <Image src={icon.logo} alt="" width={200} height={200} className="aspect-[200/80]" />
+                                <Image src={icon.logo} alt="" width={120} height={120} className="aspect-[200/80]" />
                             </div>
                         </SwiperSlide>
                         
