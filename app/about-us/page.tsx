@@ -38,7 +38,7 @@ const AboutUsPage = () => {
 	return (
 		<>
 
-			<HeroHeader video="/videos/main-hero-video.mp4" className="max-w-[707px]" title={<><strong>Empowering Innovation</strong> <span className="text-[#50a6d7]">Shaping</span> <span className="text-[#f5daed]">The</span> <span className="text-[#b9e6e9]">Future</span></>} />
+			<HeroHeader image="/images/about.png" className="max-w-[707px]" title={<><strong>Empowering Innovation</strong> <span className="text-[#50a6d7]">Shaping</span> <span className="text-[#f5daed]">The</span> <span className="text-[#b9e6e9]">Future</span></>} />
 
 			<div className="border-b border-foreground/50 max-w-screen-lg mx-auto"></div>
 			<div className="py-16">
@@ -71,7 +71,7 @@ const AboutUsPage = () => {
 				</div>
 			</div>
 
-			<VideoBackgroundSection/>
+			<VideoBackgroundSection />
 
 			<div className="py-8 lg:py-16">
 				<div className="main-container">
